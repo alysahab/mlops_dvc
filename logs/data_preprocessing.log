@@ -1,0 +1,66 @@
+2025-10-13 20:46:03,145 - data_preprocessing - DEBUG - data loaded for preprocessing
+2025-10-13 20:46:03,145 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:46:03,155 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:46:03,156 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:46:03,186 - data_preprocessing - ERROR - Error during text normalization name 'string' is not defined
+2025-10-13 20:46:03,187 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:46:03,188 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:46:03,189 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:46:03,190 - data_preprocessing - ERROR - Error during text normalization name 'string' is not defined
+2025-10-13 20:46:03,190 - data_preprocessing - DEBUG - Data processed successfully
+2025-10-13 20:46:03,191 - data_preprocessing - ERROR - Failed to complete the data transformation process: 'NoneType' object has no attribute 'to_csv'
+2025-10-13 20:52:05,980 - data_preprocessing - DEBUG - data loaded for preprocessing
+2025-10-13 20:52:05,991 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:52:05,993 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:52:05,993 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:52:06,000 - data_preprocessing - ERROR - Error during text normalization name 'string' is not defined
+2025-10-13 20:52:06,000 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:52:06,000 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:52:06,000 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:52:06,000 - data_preprocessing - ERROR - Error during text normalization name 'string' is not defined
+2025-10-13 20:52:06,000 - data_preprocessing - DEBUG - Data processed successfully
+2025-10-13 20:52:06,000 - data_preprocessing - ERROR - Failed to complete the data transformation process: 'NoneType' object has no attribute 'to_csv'
+2025-10-13 20:52:34,670 - data_preprocessing - DEBUG - data loaded for preprocessing
+2025-10-13 20:52:34,670 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:52:34,670 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:52:34,670 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:52:34,685 - data_preprocessing - ERROR - Error during text normalization name 'ps' is not defined
+2025-10-13 20:52:34,685 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:52:34,686 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:52:34,687 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:52:34,692 - data_preprocessing - ERROR - Error during text normalization name 'ps' is not defined
+2025-10-13 20:52:34,692 - data_preprocessing - DEBUG - Data processed successfully
+2025-10-13 20:52:34,692 - data_preprocessing - ERROR - Failed to complete the data transformation process: 'NoneType' object has no attribute 'to_csv'
+2025-10-13 20:52:36,811 - data_preprocessing - DEBUG - data loaded for preprocessing
+2025-10-13 20:52:36,811 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:52:36,814 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:52:36,815 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:52:36,825 - data_preprocessing - ERROR - Error during text normalization name 'ps' is not defined
+2025-10-13 20:52:36,826 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:52:36,827 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:52:36,828 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:52:36,833 - data_preprocessing - ERROR - Error during text normalization name 'ps' is not defined
+2025-10-13 20:52:36,833 - data_preprocessing - DEBUG - Data processed successfully
+2025-10-13 20:52:36,834 - data_preprocessing - ERROR - Failed to complete the data transformation process: 'NoneType' object has no attribute 'to_csv'
+2025-10-13 20:54:18,060 - data_preprocessing - DEBUG - data loaded for preprocessing
+2025-10-13 20:54:18,063 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:54:18,063 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:54:18,063 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:54:18,075 - data_preprocessing - ERROR - Error during text normalization name 'ps' is not defined
+2025-10-13 20:54:18,075 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:54:18,078 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:54:18,080 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:54:18,084 - data_preprocessing - ERROR - Error during text normalization name 'ps' is not defined
+2025-10-13 20:54:18,084 - data_preprocessing - DEBUG - Data processed successfully
+2025-10-13 20:54:18,084 - data_preprocessing - ERROR - Failed to complete the data transformation process: 'NoneType' object has no attribute 'to_csv'
+2025-10-13 20:54:40,995 - data_preprocessing - DEBUG - data loaded for preprocessing
+2025-10-13 20:54:40,995 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:54:40,995 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:54:41,000 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:54:58,507 - data_preprocessing - DEBUG - Text column Transformed
+2025-10-13 20:54:58,510 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-13 20:54:58,510 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-13 20:54:58,512 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-13 20:55:04,308 - data_preprocessing - DEBUG - Text column Transformed
+2025-10-13 20:55:04,308 - data_preprocessing - DEBUG - Data processed successfully
+2025-10-13 20:55:04,323 - data_preprocessing - DEBUG - Data saved to data\interim
