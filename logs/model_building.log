@@ -32,3 +32,18 @@ Reshape your data either using array.reshape(-1, 1) if your data has a single fe
 2025-10-15 23:05:46,587 - model_building - DEBUG - Model training started with 4152 samples
 2025-10-15 23:05:54,680 - model_building - DEBUG - Model training completed
 2025-10-15 23:05:54,763 - model_building - DEBUG - Model saved to models/model.pkl
+2025-10-16 10:55:36,346 - model_building - DEBUG - Data Loaded
+2025-10-16 10:55:36,352 - model_building - DEBUG - Initializing RandomForest model with parameters: {'bootstrap': False, 'criterion': 'gini', 'max_features': 'log2', 'n_estimators': 500, 'random_state': 42}
+2025-10-16 10:55:36,352 - model_building - DEBUG - Model training started with 4152 samples
+2025-10-16 10:55:43,973 - model_building - DEBUG - Model training completed
+2025-10-16 10:55:44,058 - model_building - DEBUG - Model saved to models/model.pkl
+2025-10-16 11:35:53,795 - model_building - DEBUG - Data Loaded
+2025-10-16 11:35:53,808 - model_building - DEBUG - Initializing RandomForest model with parameters: {'bootstrap': False, 'criterion': 'gini', 'max_features': 'log2', 'n_estimators': 500, 'random_state': 42}
+2025-10-16 11:35:53,808 - model_building - DEBUG - Model training started with 4152 samples
+2025-10-16 11:36:01,349 - model_building - DEBUG - Model training completed
+2025-10-16 11:36:01,434 - model_building - DEBUG - Model saved to models/model.pkl
+2025-10-16 11:37:27,727 - model_building - DEBUG - Data Loaded
+2025-10-16 11:37:27,727 - model_building - DEBUG - Initializing RandomForest model with parameters: {'data_ingestion': {'test_size': 0.2}, 'feature_engineering': {'max_features': 500, 'ngram_range': [1, 2]}, 'model_building': {'bootstrap': False, 'criterion': 'gini', 'max_features': 'log2', 'n_estimators': 500, 'random_state': 42}}
+2025-10-16 11:37:27,727 - model_building - DEBUG - Model training started with 4152 samples
+2025-10-16 11:37:35,198 - model_building - DEBUG - Model training completed
+2025-10-16 11:37:35,278 - model_building - DEBUG - Model saved to models/model.pkl

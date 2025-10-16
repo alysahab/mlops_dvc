@@ -64,3 +64,14 @@
 2025-10-13 20:55:04,308 - data_preprocessing - DEBUG - Text column Transformed
 2025-10-13 20:55:04,308 - data_preprocessing - DEBUG - Data processed successfully
 2025-10-13 20:55:04,323 - data_preprocessing - DEBUG - Data saved to data\interim
+2025-10-16 10:55:14,935 - data_preprocessing - DEBUG - data loaded for preprocessing
+2025-10-16 10:55:14,936 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-16 10:55:14,942 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-16 10:55:14,944 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-16 10:55:28,098 - data_preprocessing - DEBUG - Text column Transformed
+2025-10-16 10:55:28,099 - data_preprocessing - DEBUG - Start Preprocessing for Dataframe
+2025-10-16 10:55:28,100 - data_preprocessing - DEBUG - Dropped Duplicates
+2025-10-16 10:55:28,100 - data_preprocessing - DEBUG - Target Column Encoded
+2025-10-16 10:55:31,500 - data_preprocessing - DEBUG - Text column Transformed
+2025-10-16 10:55:31,501 - data_preprocessing - DEBUG - Data processed successfully
+2025-10-16 10:55:31,512 - data_preprocessing - DEBUG - Data saved to data\interim

@@ -7,3 +7,54 @@
 2025-10-15 23:04:05,065 - feature_engineering - DEBUG - tfidf applied and data transformed
 2025-10-15 23:04:05,947 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
 2025-10-15 23:04:06,179 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2025-10-16 10:55:33,244 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 10:55:33,246 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 10:55:33,363 - feature_engineering - DEBUG - tfidf applied and data transformed
+2025-10-16 10:55:34,152 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2025-10-16 10:55:34,358 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2025-10-16 11:18:27,428 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:18:27,430 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:18:27,431 - feature_engineering - ERROR - Error during Bag of Words transformation: The 'max_features' parameter of TfidfVectorizer must be an int in the range [1, inf) or None. Got (500,) instead.
+2025-10-16 11:18:27,431 - feature_engineering - ERROR - Failed to complete the feature engineering process: The 'max_features' parameter of TfidfVectorizer must be an int in the range [1, inf) or None. Got (500,) instead.
+2025-10-16 11:19:33,270 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:19:33,272 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:19:33,273 - feature_engineering - ERROR - Error during Bag of Words transformation: The 'max_features' parameter of TfidfVectorizer must be an int in the range [1, inf) or None. Got (500,) instead.
+2025-10-16 11:19:33,273 - feature_engineering - ERROR - Failed to complete the feature engineering process: The 'max_features' parameter of TfidfVectorizer must be an int in the range [1, inf) or None. Got (500,) instead.
+2025-10-16 11:27:25,593 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:27:25,595 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:27:25,596 - feature_engineering - ERROR - Error during Bag of Words transformation: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:27:25,596 - feature_engineering - ERROR - Failed to complete the feature engineering process: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:28:25,479 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:28:25,482 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:28:25,483 - feature_engineering - ERROR - Error during Bag of Words transformation: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:28:25,483 - feature_engineering - ERROR - Failed to complete the feature engineering process: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:29:43,780 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:29:43,783 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:29:43,784 - feature_engineering - ERROR - Error during Bag of Words transformation: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:29:43,784 - feature_engineering - ERROR - Failed to complete the feature engineering process: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:30:21,389 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:30:21,393 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:30:21,399 - feature_engineering - ERROR - Error during Bag of Words transformation: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:30:21,399 - feature_engineering - ERROR - Failed to complete the feature engineering process: The 'ngram_range' parameter of TfidfVectorizer must be an instance of 'tuple'. Got '(1, 2)' instead.
+2025-10-16 11:32:05,400 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:32:05,402 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:32:05,403 - feature_engineering - ERROR - Error during Bag of Words transformation: too many values to unpack (expected 2)
+2025-10-16 11:32:05,404 - feature_engineering - ERROR - Failed to complete the feature engineering process: too many values to unpack (expected 2)
+2025-10-16 11:34:33,061 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:34:33,064 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:34:33,065 - feature_engineering - ERROR - Error during Bag of Words transformation: too many values to unpack (expected 2)
+2025-10-16 11:34:33,065 - feature_engineering - ERROR - Failed to complete the feature engineering process: too many values to unpack (expected 2)
+2025-10-16 11:34:40,168 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:34:40,180 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:34:40,181 - feature_engineering - ERROR - Error during Bag of Words transformation: too many values to unpack (expected 2)
+2025-10-16 11:34:40,182 - feature_engineering - ERROR - Failed to complete the feature engineering process: too many values to unpack (expected 2)
+2025-10-16 11:34:59,389 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:34:59,391 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:34:59,485 - feature_engineering - DEBUG - tfidf applied and data transformed
+2025-10-16 11:35:00,281 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2025-10-16 11:35:00,493 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2025-10-16 11:35:50,761 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2025-10-16 11:35:50,764 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2025-10-16 11:35:50,857 - feature_engineering - DEBUG - tfidf applied and data transformed
+2025-10-16 11:35:51,639 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2025-10-16 11:35:51,844 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv

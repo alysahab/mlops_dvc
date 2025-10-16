@@ -1,0 +1,14 @@
+data_ingestion:
+    test_size: 0.2
+
+feature_engineering:
+    max_features: 500
+    ngram_range: [1,2] # Changed to list for YAML compatibility
+
+model_building:
+    'bootstrap': False
+    'criterion': 'gini'
+    'max_features': 'log2'
+    'n_estimators': 500
+    'random_state': 42
+

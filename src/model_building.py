@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import numpy as np
 import pickle
+from model_evaluation import load_params
 
 
 
@@ -29,6 +30,8 @@ logger.addHandler(file_handler)
 
 
 
+
+
 def load_data(file_path:str) -> pd.DataFrame:
     try:
         df = pd.read_csv(file_path)
@@ -44,7 +47,7 @@ def load_data(file_path:str) -> pd.DataFrame:
         logger.error('Unexpected error occurred while loading the data: %s', e)
         raise
 
-def train_model(X_train: np.ndarray, y_train: np.ndarray, params: dict) -> RandomForestClassifier:
+def train_model(X_train: np.ndarray, y_train: np.ndarray, params) -> RandomForestClassifier:
     """
     Train the RandomForest model.
     
@@ -59,11 +62,11 @@ def train_model(X_train: np.ndarray, y_train: np.ndarray, params: dict) -> Rando
         
         logger.debug('Initializing RandomForest model with parameters: %s', params)
         clf = RandomForestClassifier(
-            n_estimators=params['n_estimators'], 
-            random_state=params['random_state'],
-            criterion=params['criterion'],
-            max_features=params['max_features'],
-            bootstrap=params['bootstrap'])
+            n_estimators=params['model_building']['n_estimators'], 
+            random_state=params['model_building']['random_state'],
+            criterion=params['model_building']['criterion'],
+            max_features=params['model_building']['max_features'],
+            bootstrap=params['model_building']['bootstrap'])
         
         logger.debug('Model training started with %d samples', X_train.shape[0])
         clf.fit(X_train, y_train)
@@ -100,13 +103,7 @@ def save_model(model, file_path: str) -> None:
 
 def main():
     try:
-        params = {
-        'bootstrap': False,  
-        'criterion': 'gini',  
-        'max_features': 'log2',  
-        'n_estimators': 500,
-        'random_state':42}
-
+        params = load_params(params_path='params.yaml')
         train_data = load_data('./data/processed/train_tfidf.csv')
         X_train = train_data.iloc[:,:-1].values
         y_train = train_data.iloc[:,-1].values
